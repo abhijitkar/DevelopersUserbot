@@ -49,7 +49,7 @@ async def alive_t(event):
     end = datetime.now()
     (end - start).microseconds / 1000
     uptime = get_readable_time((time.time() - StartTime))
-    reply_msg = f"**[Developer](https://github.com/TheCodents/DevelopersUserbot)**\n"
+    reply_msg = f"**[Developer](https://t.me/ZodXDevviL)**\n"
     reply_msg += f"Python Version: `{__python_version__}`\n"
     reply_msg += f"Telethon Version: `{__tele_version__}`\n"
     end_time = time.time()
